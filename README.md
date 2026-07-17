@@ -6,15 +6,13 @@ This repository contains my daily programming exercises, problem-solving practic
 
 ## 📚 Languages & Technologies
 
-* PYTHON
-* C
-* JAVA
-* CPP
-* Data Structures & Algorithms (DSA)
-* SQL
-* JavaScript
-* Machine Learning (Upcoming)
-* Web Development (Upcoming)
+- [x] Python (Learning)
+- [ ] C
+- [ ] Java
+- [ ] C++
+- [ ] Data Structures & Algorithms (DSA)
+- [ ] Machine Learning
+- [ ] Web Development
 
 ## 📂 Repository Structure
 
