@@ -97,7 +97,7 @@ Files are numbered sequentially to maintain an organized learning path.
 Track completed topics and update this section regularly.
 
 * [x] Hello World
-* [ ] Variables
+* [x] Variables
 * [ ] Data Types
 * [ ] Operators
 * [ ] User Input
