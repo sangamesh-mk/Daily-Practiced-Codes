@@ -1,5 +1,5 @@
 
-# 🚀 Daily-Practiced-Codes
+#  Daily-Practiced-Codes🚀
 
 Welcome to my coding practice repository!
 
