@@ -23,9 +23,7 @@ Daily-Practiced-Codes/
 ├── C/
 ├── Java/
 ├── CPP/
-├── DSA-Java/CPP/
-├── SQL/
-├── JavaScript/
+├── DSA-Java-CPP/
 └── README.md
 ```
 
