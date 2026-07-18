@@ -39,7 +39,8 @@ F5 = -3.14e-22 # -3.14 * 10^-22
 F6 = 22.99E-8 # 22.99 * 10^-8
 F7 = -33.87e4 # -33.87 * 10^4
 print(F1,F2,F3,F4,F5,F6,F7) #OUTPUT: 10.5 -22.85 0 230.0 -3.14e-22 2.299e-07 -3387000.0
-print(type(F1),type(F2),type(F3),type(F4),type(F5),type(F6),type(F7)) #OUTPUT: <class 'float'> <class 'float'> <class 'float'> <class 'float'> <class 'float'> <class 'float'> <class 'float'>
+print(type(F1),type(F2),type(F3),type(F4),type(F5),type(F6),type(F7))
+#OUTPUT: <class 'float'> <class 'float'> <class 'float'> <class 'float'> <class 'float'> <class 'float'> <class 'float'>
 
 ## 03: BOOLEAN DATA TYPE
 # Boolean data type is used to represent truth values. In Python, booleans are represented by the 'bool' class.
