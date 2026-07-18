@@ -98,7 +98,7 @@ Track completed topics and update this section regularly.
 
 * [x] Hello World
 * [x] Variables
-* [ ] Data Types
+* [x] Data Types
 * [ ] Operators
 * [ ] User Input
 * [ ] Control Flow
