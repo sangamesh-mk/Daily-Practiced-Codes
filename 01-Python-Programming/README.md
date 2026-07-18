@@ -99,6 +99,8 @@ Track completed topics and update this section regularly.
 * [x] Hello World
 * [x] Variables
 * [x] Data Types
+* [x] Literals and Constants
+* [x] Base and Type Conversions
 * [ ] Operators
 * [ ] User Input
 * [ ] Control Flow
