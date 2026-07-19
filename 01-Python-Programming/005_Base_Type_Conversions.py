@@ -42,6 +42,7 @@ print(oct(Bool22)) #OUTPUT: 0o0
 
 
 ##3.hex() : Converts the any other base types to the Hexadecimal data type(Base 16)
+#FOR INTEGERS
 H1 = 8
 H2 = hex(H1)
 print(H2) #OUTPUT: 0x8 (Zero x 8)
@@ -63,8 +64,9 @@ For FLOATS :-
 F1 = 12.5
 B4 = bin(F1)
 O5 = oct(F1)
+H5 = hex(F1)
 
 print(B4) #OUTPUT:  TypeError: 'float' object cannot be interpreted as an integer
-print(O5)
-
+print(O5) #OUTPUT:  TypeError: 'float' object cannot be interpreted as an integer
+print(H5) #OUTPUT:  TypeError: 'float' object cannot be interpreted as an integer
 """
