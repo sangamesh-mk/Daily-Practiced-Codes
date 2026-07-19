@@ -1,5 +1,4 @@
 ### THERE ARE MAINLY FIVE TYPES OF LITERALS IN PYTHON
-#
 """
 1.Integer Literals
 2.Float Literals
@@ -54,8 +53,21 @@ print(type(B1),type(B2))
 #Direct Complex Data types assigned to the variables
 C1 = 4+9j
 C2 = 8_5 + 10_3j
-print(C1) #output: 
-print(C2) #output: 
-print(type(C1),type(C2))
-print(C1,C2)
-# Print numbers from 1 to 10
+print(C1) #output: (4+9j)
+print(C2) #output: (85+103j)
+print(type(C1),type(C2)) #outout: <class 'complex'> <class 'complex'>
+
+##5.String Literals
+"""
+It can be enclosed by :
+Single Quotes ='  '
+Double Quotes ="  "
+Triple Quotes ="'  "'
+"""
+Name = 'Sangamesh'
+Name1 = "Sangamesh MK"
+Name2 = '"Sanagmesh M Kuri"'
+print(Name) #output: Sangamesh
+print(Name1) #output: Sangamesh MK
+print(Name2) #output: "Sanagmesh M Kuri" #Here the python considered the inner double quotes as the part of the string and prints tghe output with the the double quotes.
+print(type(Name)) #output: <class 'str'>
