@@ -8,7 +8,7 @@
 
 """
 ##1.Integer Literals
-#Direct integer valus like "200"
+#Direct integer values like "200"
 I1 = 12345678910 #Without underscore
 I2 = 123_45_67_8910 #With underscores to enhance the readability
 print(I1) #output: 12345678910
@@ -66,8 +66,8 @@ Triple Quotes ="'  "'
 """
 Name = 'Sangamesh'
 Name1 = "Sangamesh MK"
-Name2 = '"Sanagmesh M Kuri"'
+Name2 = '"Sangamesh M Kuri"'
 print(Name) #output: Sangamesh
 print(Name1) #output: Sangamesh MK
-print(Name2) #output: "Sanagmesh M Kuri" #Here the python considered the inner double quotes as the part of the string and prints tghe output with the the double quotes.
+print(Name2) #output: "Sangamesh M Kuri" #Here the python considered the inner double quotes as the part of the string and prints tghe output with the the double quotes.
 print(type(Name)) #output: <class 'str'>
