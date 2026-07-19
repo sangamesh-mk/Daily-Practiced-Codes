@@ -69,5 +69,5 @@ Name1 = "Sangamesh MK"
 Name2 = '"Sangamesh M Kuri"'
 print(Name) #output: Sangamesh
 print(Name1) #output: Sangamesh MK
-print(Name2) #output: "Sangamesh M Kuri" #Here the python considered the inner double quotes as the part of the string and prints tghe output with the the double quotes.
+print(Name2) #output: "Sangamesh M Kuri" #Here the python considered the inner double quotes as the part of the string and prints the output with the the double quotes.
 print(type(Name)) #output: <class 'str'>
