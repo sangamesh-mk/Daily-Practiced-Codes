@@ -112,6 +112,7 @@ print(B) #OUTPUT: True
 C = not z
 print(C) #OUTPUT: False
 
+#Non-Boolean Conditions in Logical Operations
 #For AND Operator,
 """
 Returns the SECOND operand ,if the first operand is TRUE(operand is not 0 or any false values)
@@ -156,9 +157,23 @@ X *= Y
 print(X) #OUTPUT: 10800
 
 
-##5. Bitwise Operators: &,|,^,~,<<,>>
+##5. Identity Operators: is,is not
+A = 25
+B = 25
+print(A == B) #OUTPUT: True
+print(A is B) #OUTPUT: True
+print(A is not B) #OUTPUT: False
+
+a = [1,2,3]
+b = [1,2,3]
+print(a == b) #OUTPUT: True
+print(a is b) #OUTPUT: False
+print(a is not b) #OUTPUT: True
+
+x = 100
+y = 1000
+print(x is b) #OUTPUT: False
+print(x is not y) #OUTPUT: True
 
 
-
-
-##6. Identity Operators: is,is not
+##6. Bitwise Operators: &,|,^,~,<<,>>
