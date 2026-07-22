@@ -63,12 +63,22 @@ print(B) #OUTPUT: True
 C = not z
 print(C) #OUTPUT: False
 
-#For AND Operator,the 2nd Value will be the Output.
+#For AND Operator,
+"""
+Returns the SECOND operand ,if the first operand is TRUE(operand is not 0 or any false values)
+Returns the FIRST operand, if the first operand is FALSE(operand is 0 or any false values)
+"""
+
 print(w and x) #OUTPUT: 5
 print(20 and 5) #OUTPUT: 5
 print(5 and 20)  #OUTPUT: 20
 
-#For OR Operator,the 1st Value will be the Output.
+#For OR Operator,
+"""
+Returns the FIRST operand ,if the first operand is TRUE(operand is not 0 or any false values)
+Returns the SECOND operand, if the first operand is FALSE(operand is 0 or any false values)
+"""
+
 print(w or x) #OUTPUT: 20
 print(20 or x) #OUTPUT: 20
 print(x or y) #OUTPUT: 5
