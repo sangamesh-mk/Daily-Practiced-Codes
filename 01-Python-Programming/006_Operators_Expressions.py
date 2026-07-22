@@ -131,6 +131,13 @@ C = not z
 print(C) #OUTPUT: False
 
 #Non-Boolean Conditions in Logical Operations
+"""
+Short-Circuit Evaluation
+Python evaluates logical expressions from left to right.
+and stops as soon as it finds a falsy operand.
+or stops as soon as it finds a truthy operand.
+"""
+
 #For AND Operator,
 """
 Returns the SECOND operand ,if the first operand is TRUE(operand is not 0 or any false values)
