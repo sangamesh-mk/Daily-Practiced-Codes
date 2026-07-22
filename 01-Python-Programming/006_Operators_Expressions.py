@@ -96,6 +96,24 @@ print(h)  #OUTPUT: False
 i = a != b
 print(i) #OUTPUT: True
 
+#String Comparision(Relational Operators)
+#Lexicographic Order
+StrComp1 = "Apple" < "Apply"
+print(StrComp1) #OUTPUT: True
+
+StrComp2 = "Attachment" > "Attach"
+print(StrComp2) #OUTPUT: True
+
+StrComp3 = "Ram" > "Ravana"
+print(StrComp3) #OUTPUT: False
+
+StrComp4 = "Dhuryodhana" > "Bheema"
+print(StrComp4) #OUTPUT: True
+
+StrComp5 = "90Sons" < "OneDaughter"
+print(StrComp5) #OUTPUT: True
+
+print("#Python" < "Python") #OUTPUT: True
 
 ##3. Logic Operators: and,or,not
 u = 1
