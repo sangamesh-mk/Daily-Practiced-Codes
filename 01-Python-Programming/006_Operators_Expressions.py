@@ -18,6 +18,55 @@ print("Floor Division : " ,FloorD) #OUTPUT: Floor Division :  0
 print("Modulus : ", Mod) #OUTPUT: Modulus :  10
 print("Exponent : ", Expon) #OUTPUT: Exponent :  100000000000000000000
 
+## STRING CONCATENATION(Joining(+)of Two strings) And STRING REPETATION(Repeating(*)strings n times)
+
+# STRING CONCATENATION(+)
+First_String = "Sangamesh"
+Second_String = "M Kuri"
+Joined_String = First_String + " " + Second_String
+print(Joined_String) #OUTPUT: Sangamesh M Kuri
+
+FirstString = "1VW25CompSci"
+SecondString = "090"
+FinalString = FirstString + SecondString
+print(FinalString) #OUTPUT: 1VW25CompSci090
+
+FirstString = "1VW25CompSci"
+SecondString = str(90)
+FinalString = FirstString + SecondString
+print(FinalString) #OUTPUT: 1VW25CompSci90
+
+Name = input("Enter Your Name: ")
+TotalMarks = int(input("Enter the Total Marks: "))
+ObtainedMarks = int(input("Enter your Marks: "))
+print(Name + " Scored " , ObtainedMarks , " Out of ", TotalMarks) 
+#Sample INPUT: 
+"""
+Enter Your Name: Sangamesh M Kuri
+Enter the Total Marks: 600
+Enter your Marks: 550
+"""
+#OUTPUT: Sangamesh M Kuri Scored  550  Out of  600
+
+# STRING REPETATION(*)
+
+String1 = "Sangamesh\n"
+RepString = String1 * 5
+print(RepString)
+#OUTPUT: 
+"""
+Sangamesh
+Sangamesh
+Sangamesh
+Sangamesh
+Sangamesh
+"""
+String1 = "Sangamesh\t"
+RepString = String1 * 5
+print(RepString)
+#OUTPUT: Sangamesh       Sangamesh       Sangamesh       Sangamesh       Sangamesh
+
+
 ### EXPRESSIONS 
 Expr = 2 + 88 * 100 - 9 / 2
 print("The Result is : ", Expr) #OUTPUT: The Result is :  8797.5
@@ -107,50 +156,9 @@ X *= Y
 print(X) #OUTPUT: 10800
 
 
-## STRING CONCATENATION(Joining of Two strings) And STRING REPETATION(Repeating strings n times)
+##5. Bitwise Operators: &,|,^,~,<<,>>
 
-# STRING CONCATENATION
-First_String = "Sangamesh"
-Second_String = "M Kuri"
-Joined_String = First_String + " " + Second_String
-print(Joined_String) #OUTPUT: Sangamesh M Kuri
 
-FirstString = "1VW25CompSci"
-SecondString = "090"
-FinalString = FirstString + SecondString
-print(FinalString) #OUTPUT: 1VW25CompSci090
 
-FirstString = "1VW25CompSci"
-SecondString = str(90)
-FinalString = FirstString + SecondString
-print(FinalString) #OUTPUT: 1VW25CompSci90
 
-Name = input("Enter Your Name: ")
-TotalMarks = int(input("Enter the Total Marks: "))
-ObtainedMarks = int(input("Enter your Marks: "))
-print(Name + " Scored " , ObtainedMarks , " Out of ", TotalMarks) 
-#Sample INPUT: 
-"""
-Enter Your Name: Sangamesh M Kuri
-Enter the Total Marks: 600
-Enter your Marks: 550
-"""
-#OUTPUT: Sangamesh M Kuri Scored  550  Out of  600
-
-# STRING REPETATION
-
-String1 = "Sangamesh\n"
-RepString = String1 * 5
-print(RepString)
-#OUTPUT: 
-"""
-Sangamesh
-Sangamesh
-Sangamesh
-Sangamesh
-Sangamesh
-"""
-String1 = "Sangamesh\t"
-RepString = String1 * 5
-print(RepString)
-#OUTPUT: Sangamesh       Sangamesh       Sangamesh       Sangamesh       Sangamesh
+##6. Identity Operators: is,is not
