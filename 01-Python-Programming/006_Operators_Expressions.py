@@ -177,3 +177,47 @@ print(x is not y) #OUTPUT: True
 
 
 ##6. Bitwise Operators: &,|,^,~,<<,>>
+#AND(&) OPERATOR
+a = 10 #1010
+b = 15 #1111
+print(a & b) #OUTPUT: 10 (1010)
+print(format(a ,"b")) #OUTPUT: 1010 (without prefix 0b)
+print(bin(a)) #OUTPUT: 0b1010 (with prefix)
+print(a.bit_length()) #OUTPUT: 4 (Length of the Bit)
+
+#OR(|) OPERATOR
+A = 5
+B = 8
+print(A | B) #OUTPUT: 13
+print(format(A, "b")) #OUTPUT: 101
+print(bin(A)) #OUTPUT: 0b101
+print(A.bit_length()) #OUTPUT: 3
+
+#XOR(^) OPERATOR
+x = 10
+y = 8
+print(x ^ y) #OUTPUT: 2
+print(format(x, "b")) #OUTPUT: 1010
+print(bin(x)) #OUTPUT: 0b1010
+print(bin(y)) #OUTPUT: 0b1000
+print(x.bit_length()) #OUTPUT: 4
+
+
+#Complement(~) OPERATOR
+X = 6
+Y = 30
+print(~X) #OUTPUT: -7
+print(~Y) #OUTPUT: -31
+
+#Left Shift(<<)
+p = 9
+q = 4
+print(p << 1) #OUTPUT: 18 (p * 2 ** 1 = 9 * 2**1)
+print(q << 3) #OUTPUT: 32 (q * 2 ** 3 = 4 * 2 ** 3)
+print(format(p , "b")) #OUTPUT: 1001
+
+#Right Shift(>>)
+P = 4
+Q = 8
+print(P >> 1) #OUTPUT: 2 (P // 2 ** 1 = 4 // 2 ** 1)
+print(Q >> 3) #OUTPUT: 1 (Q // 2 ** 3 = 8 // 2 ** 3)
