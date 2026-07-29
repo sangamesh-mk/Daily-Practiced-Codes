@@ -101,8 +101,8 @@ Track completed topics and update this section regularly.
 * [x] Data Types
 * [x] Literals and Constants
 * [x] Base and Type Conversions
-* [ ] Operators
-* [ ] User Input
+* [x] Operators
+* [x] User Input
 * [ ] Control Flow
 * [ ] Functions
 * [ ] OOP
