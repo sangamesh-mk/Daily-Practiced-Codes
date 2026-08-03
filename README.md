@@ -8,6 +8,7 @@ This repository contains my daily programming exercises, problem-solving practic
 ## 📚 Languages & Technologies
 
 - [x] Python (Learning)
+- [x] Dart(Flutter)
 - [ ] C
 - [ ] Java
 - [ ] C++
