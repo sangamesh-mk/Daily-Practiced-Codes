@@ -3,6 +3,9 @@ print("I am Sangamesh MK") #output: I am Sangamesh MK
 Age = 20
 print(Age)
 
+first_pro = "Hello World!"
+print(first_pro)
+
 FirstName = "SANGAMESH"
 SecondName = "M KURI"
 print(FirstName) #output: SANGAMESH
