@@ -33,6 +33,14 @@ int main() {
            
         printf("\n");
     }
+
+    printf("Row 1: ");
+for (int j = 0; j < 3; j++) {
+    printf("%d ", Arr2[1][j]);
+}
+printf("\n");
+// Output: Row 1: 4 5 6 
+
         {
             printf("%d",Arr2[1][1]); // Output: 5
         }
