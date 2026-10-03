@@ -54,4 +54,13 @@ dkms.conf
 # debug information files
 *.dwo
 
+# Java compiled files
+*.class
+
+# Java build folders
+out/
+bin/
+
+# VS Code
+.vscode/
 *.class
