@@ -4,4 +4,10 @@ int main() {
     for(int i=0;i<5;i++)
     printf("%d\n",Arr[i]);
 }
-/*Output: 10 20 30 40 50 */
+/*Output: 
+ 10
+ 20
+ 30
+ 40
+ 50 
+ */
