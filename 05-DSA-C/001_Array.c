@@ -53,5 +53,3 @@ printf("\n");
 7 8 9 
 */
 
-
-rthnkiuygtfdrtyujkiugyu
